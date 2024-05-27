@@ -29,9 +29,31 @@ let exp2 = document.getElementsByClassName("exp2")[0]
 exp2.onmouseover = function() {mouseOver()};
 exp2.onmouseout = function() {mouseOut()};
 
-let fot = document.getElementsByClassName("git")[0]
+let fot = document.getElementById("radir")
 fot.onmouseover = function() {mouseOver()};
 fot.onmouseout = function() {mouseOut()};
+
+let phone = document.getElementsByClassName("phone")[0]
+phone.onmouseover = function() {mouseOver()};
+phone.onmouseout = function() {mouseOut()};
+
+let eml = document.getElementById("eml");[0]
+eml.onmouseover = function() {mouseOver()};
+eml.onmouseout = function() {mouseOut()};
+
+let it = document.getElementById("IT Support");
+it.onmouseover = function() {mouseOver()};
+it.onmouseout = function() {mouseOut()};
+let it1 = document.getElementById("IT Support1");
+it1.onmouseover = function() {mouseOver()};
+it1.onmouseout = function() {mouseOut()};
+let it2 = document.getElementById("IT Support2");
+it2.onmouseover = function() {mouseOver()};
+it2.onmouseout = function() {mouseOut()};
+let it3 = document.getElementById("IT Supporte");
+it3.onmouseover = function() {mouseOver()};
+it3.onmouseout = function() {mouseOut()};
+
 
 
 
@@ -55,6 +77,15 @@ function mouseOver(){
     exp2.innerHTML =`Deep knowledge of operating systems, current equipment and technologies, enterprise backup and recovery procedures, and system performance monitoring tools
     Excellent interpersonal skills`
     image.src ="download.jpg"
+    phone.innerHTML ="055555s55"
+    eml.innerHTML ="Yazeed@gmail.com"
+
+    it.innerHTML ="IT support"
+    it1.innerHTML ="IT support"
+    it2.innerHTML ="IT support"
+    it3.innerHTML ="IT support"
+
+
     
     
 
