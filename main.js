@@ -107,6 +107,9 @@ function mouseOut(){
     budget and ensuring that all marketing material is in line with
     our brand identity.`
 
+    image.src ="pexels-photo-771742.jpeg"
+
+
 
 
 
